@@ -1,0 +1,21 @@
+# Build outputs
+/app/build/
+/app/emergency_app
+/app/ea_tests
+/kernel/*.o
+/kernel/*.ko
+/kernel/*.mod
+/kernel/*.mod.c
+/kernel/Module.symvers
+/kernel/modules.order
+/kernel/.*.cmd
+
+# Local data
+/app/emergency.db
+/app/emergency.db-shm
+/app/emergency.db-wal
+
+# Machine-specific editor and OS files
+/.vscode/
+/.DS_Store
+Thumbs.db
